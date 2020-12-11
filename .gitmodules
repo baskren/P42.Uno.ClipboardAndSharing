@@ -1,0 +1,3 @@
+[submodule "MimeSharp"]
+	path = MimeSharp
+	url = https://github.com/baskren/MimeSharp.git
