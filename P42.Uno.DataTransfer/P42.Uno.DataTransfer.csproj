@@ -16,6 +16,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Uno.UI" Version="3.3.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="**\*.shared.cs" />
@@ -37,4 +38,10 @@
     <Compile Include="**\*.macos.cs" />
     <Compile Include="**\*.macos.*.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\P42.Uno.Controls\P42.Utils\P42.Utils\P42.Utils.csproj" />
+    <ProjectReference Include="..\..\P42.Uno.Controls\P42.Utils\P42.Utils.Uno\P42.Utils.Uno.csproj" />
+    <ProjectReference Include="..\MimeSharp\MimeSharp\MimeSharp.csproj" />
+  </ItemGroup>
+
 </Project>
